@@ -12,12 +12,12 @@ import (
 	"slices"
 	"strings"
 
-	webhook_model "gitea.dev/models/webhook"
-	"gitea.dev/modules/git"
-	"gitea.dev/modules/json"
-	"gitea.dev/modules/log"
-	api "gitea.dev/modules/structs"
-	webhook_module "gitea.dev/modules/webhook"
+	webhook_model "code.gitea.io/gitea/models/webhook"
+	"code.gitea.io/gitea/modules/git"
+	"code.gitea.io/gitea/modules/json"
+	"code.gitea.io/gitea/modules/log"
+	api "code.gitea.io/gitea/modules/structs"
+	webhook_module "code.gitea.io/gitea/modules/webhook"
 )
 
 type (

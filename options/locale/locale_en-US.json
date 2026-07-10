@@ -3207,6 +3207,7 @@
   "admin.auths.tip.openid_connect": "Use the OpenID Connect Discovery URL \"https://{server}/.well-known/openid-configuration\" to specify the endpoints",
   "admin.auths.tip.twitter": "Go to %s, create an application and ensure that the “Allow this application to be used to Sign in with Twitter” option is enabled",
   "admin.auths.tip.discord": "Register a new application on %s",
+  "admin.auths.tip.feishu": "Register a new application on %s",
   "admin.auths.tip.gitea": "Register a new OAuth2 application. Guide can be found at %s",
   "admin.auths.tip.yandex": "Create a new application at %s. Select following permissions from the \"Yandex.Passport API\" section: \"Access to email address\", \"Access to user avatar\" and \"Access to username, first name and surname, gender\"",
   "admin.auths.tip.mastodon": "Input a custom instance URL for the mastodon instance you want to authenticate with (or use the default one)",

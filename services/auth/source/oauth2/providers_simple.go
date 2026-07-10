@@ -13,6 +13,7 @@ import (
 	"github.com/markbates/goth/providers/dropbox"
 	"github.com/markbates/goth/providers/facebook"
 	"github.com/markbates/goth/providers/google"
+	"github.com/markbates/goth/providers/lark"
 	"github.com/markbates/goth/providers/microsoftonline"
 	"github.com/markbates/goth/providers/twitter"
 	"github.com/markbates/goth/providers/yandex"
@@ -106,4 +107,10 @@ func init() {
 			return microsoftonline.New(clientID, secret, callbackURL, scopes...)
 		},
 	))
+
+	RegisterGothProvider(NewSimpleProvider(
+		"feishu", "Feishu", nil,
+		func(clientKey, secret, callbackURL string, scopes ...string) goth.Provider {
+			return lark.New(clientKey, secret, callbackURL, scopes...)
+		}))
 }

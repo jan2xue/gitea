@@ -12,8 +12,8 @@ import (
 	"sync"
 	"time"
 
-	webhook_model "gitea.dev/models/webhook"
-	"gitea.dev/modules/json"
+	webhook_model "code.gitea.io/gitea/models/webhook"
+	"code.gitea.io/gitea/modules/json"
 )
 
 // feishuAPIBaseURL is the default base URL of the Feishu (Lark) Open API. It
